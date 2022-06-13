@@ -1,0 +1,158 @@
+#banner .container-fluid {
+  padding: 0;
+  position: relative;
+}
+
+.card {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.carousel{
+  width: 50%;
+  margin: auto;
+}
+.md-edu{
+  padding: 39px 19px 36px 19px;
+}
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: rgba(49, 108, 244, 0.8);
+    margin: -.5rem -1rem;
+    padding: .5rem 1rem;
+  }
+
+  .card {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .carousel{
+    width: 100%;
+  }
+  .lg-edu{
+    text-align: center;
+  }
+  .md-edu{
+    padding: 11px;
+  }
+}
+
+.banner-image {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-height: 550px;
+  min-height: 550px;
+  filter: brightness(50%);
+}
+
+#banner .banner-btn {
+  width: 140px;
+  background-color: #104E8B;
+}
+
+.content-center {
+  position: absolute;
+  padding-top: 13%;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+@media (max-width: 570px) {
+  .content-center {
+    top: 35%;
+  }
+}
+
+.my-name {
+  color: white;
+}
+
+.bio {
+  color: white;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.banner-social-btn {
+  position: absolute;
+  z-index: 1;
+  margin-top: 537px;
+}
+
+.banner-round-btn {
+  background-color: silver;
+  border: none;
+  color: white;
+  padding: 20px;
+  /* padding-top: 29px; */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.instagram:hover {
+  color: #FF3131;
+}
+
+.telegram:hover {
+  color: #1F51FF;
+}
+
+/* about */
+.card-title {
+  font-size: 1.714em;
+}
+
+#skills h3{
+  text-align: center;
+}
+
+/* portfolio */
+#portfolio h3{
+  text-align: center;
+}
+
+.app-img{
+  width:100%;
+  margin: 10px;
+}
+
+/* education */
+#education h3{
+  text-align: center;
+}
+
+#education .card{
+  padding: 0 0 !important;
+}
+#education p{
+  margin-bottom: 0;
+}
+
+.lg-edu{
+  padding: 39px 0 20px 15px;
+}
+.p-date{
+  text-align: center;
+}
+/* footer */
+.footer{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
